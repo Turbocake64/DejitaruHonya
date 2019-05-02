@@ -8,7 +8,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
       
       <div className="form-group">
         <label htmlFor="Query">
-          <strong>Book</strong>
+          <strong>書名</strong>
         </label>
         <input
           className="form-control"
@@ -27,7 +27,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
           type="submit"
           className="btn btn-lg btn-danger float-right"
         >
-          Search
+          検索
         </button>
       </div>
     </form>

@@ -76,9 +76,9 @@ class Home extends Component {
           <Col size="md-12">
             <Jumbotron>
               <h1 className="text-center">
-                <strong>(React) Google Books Search</strong>
+                <strong>(リアクト) グーグル・ブックス検索！</strong>
               </h1>
-              <h2 className="text-center">Search for and Save Books of Interest.</h2>
+              <h2 className="text-center">興味深い本を検索上、リストに保存することもできます。</h2>
             </Jumbotron>
           </Col>
           <Col size="md-12">

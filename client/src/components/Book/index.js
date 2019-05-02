@@ -39,7 +39,7 @@ function Book({ title, subtitle, authors, link, description, image, Button }) {
         {/* calling the Col Component again */}
         <Col size="md-6">
           {/* a p-tag that will be passed the 'author' props */}
-          <p className="font-italic small">Written by {authors}</p>
+          <p className="font-italic small">作家 {authors}</p>
         </Col>
       </Row>
       {/* calling the Row Component again */}

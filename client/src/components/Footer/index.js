@@ -10,7 +10,7 @@ function Footer() {
       {/* p-tag  */}
       <p className="pull-right">
         {/* github icon with React js plug */}
-        <i className="fab fa-github" /> Proudly built using React.js
+        <i className="fab fa-github" /> リアクトで作られたアップリです。
       </p>
     </footer>
   );
