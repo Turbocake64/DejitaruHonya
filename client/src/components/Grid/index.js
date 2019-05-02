@@ -1,5 +1,7 @@
+// import jsx via React
 import React from "react";
 
+// export the Container function with the props fluid and children
 export function Container({ fluid, children }) {
   return <div className={`container${fluid ? "-fluid" : ""}`}>{children}</div>;
 }

@@ -1,21 +1,34 @@
+// importing React and deconstructing Component
 import React, { Component } from "react";
+// importing the jumbotron component
 import Jumbotron from "../components/Jumbotron";
+// importing the card component
 import Card from "../components/Card";
+// importing the Form component
 import Form from "../components/Form";
+//importing the book component
 import Book from "../components/Book";
+//importing the Footer component
 import Footer from "../components/Footer";
+//importing the API 
 import API from "../utils/API";
+// importing the deconstructed Col, Row, and Container from the Grid component
 import { Col, Row, Container } from "../components/Grid";
+// importing the deconstructed List from the component List
 import { List } from "../components/List";
 
+// declaring a statefull component
 class Home extends Component {
+  //defining state as books-an empty array, q-an empty string, and message-the string "Search For A Book To Begin"
   state = {
     books: [],
     q: "",
     message: "Search For A Book To Begin!"
   };
 
+  // the handleInputChange function
   handleInputChange = event => {
+    // for a given name and value after an event, the 
     const { name, value } = event.target;
     this.setState({
       [name]: value
